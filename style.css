@@ -1,7 +1,77 @@
-body{
-    overflow-x: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root{
+    --text-color-dark: #1F1F1F;
+    --text-color-light: #707070;
+    --text-color-semi-light: #4E4E4E;
+    --text-color-white: #FFFFFF;
+    --price-tag-color: #FF136F;
+    --view-more-text-color: #FF9D00;
+    --header-one-text-size: 3em;
+    --secondary-header-size: 2em;
+    --pricetag-text-size-one: 41px;
+    --pricetag-text-size-two: 24px;
+    --bg-color-one: #FEEAE9;
+    --grad-bg-one: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    --grad-bg-two: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    --grad-bg-three: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    --btn-color-primary: #000000;
+
 }
-.search-box{
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    color: var(--price-tag-color);
+    font-size: var(--secondary-header-size);
+}
+h4{
+    font-weight: bolder;
+}
+h5 > a{
+    color: var(--view-more-text-color);
+    text-decoration: none;
+}
+p{
+    color: var(--text-color-light);
+}
+
+.banner-header{
+    font-size: var(--header-one-text-size);
+    padding: 5px;
+    color: var(--text-color-dark);
+}
+.title-header{
+    font-size: var(--secondary-header-size);
+}
+
+
+.button{
+    background: var(--grad-bg-two);
+    border: none;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.categories-1{
+    background: var(--grad-bg-one);
+    border-radius: 15px;
+}
+.categories-2{
+    background: var(--grad-bg-two);
+    border-radius: 15px;
+}
+.categories-3{
+    background: var(--grad-bg-three);
+    border-radius: 15px;
+}
+.btn-dark{
+    letter-spacing: 2px;
+}
+
+/* .search-box{
     height: 50px;
     width: 500px;
     padding: 10px;
@@ -19,7 +89,7 @@ body{
 
 .search-box > i{
     font-size: 25px;
-}
+} */
 
 .newsteller-container{
     height: 455px;
@@ -27,8 +97,8 @@ body{
     background-color: #FFF2F1;
 }
 input{
-    width: 90%;
-    height: 50px;
+    width: 100%;
+    height: auto;
 }
 .newsteller-container a{
     background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
