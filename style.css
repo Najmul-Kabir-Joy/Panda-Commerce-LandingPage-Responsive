@@ -1,0 +1,39 @@
+body{
+    overflow-x: hidden;
+}
+.search-box{
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #F1F1F1;
+}
+.search-box > input{
+    padding: 5px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.search-box > i{
+    font-size: 25px;
+}
+
+.newsteller-container{
+    height: 455px;
+    width: 100%;
+    background-color: #FFF2F1;
+}
+input{
+    width: 90%;
+    height: 50px;
+}
+.newsteller-container a{
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+    padding: 15px 25px 15px 25px;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
