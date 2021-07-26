@@ -71,7 +71,7 @@ p{
     letter-spacing: 2px;
 }
 
-/* .search-box{
+.search-box{
     height: 50px;
     width: 500px;
     padding: 10px;
@@ -89,7 +89,12 @@ p{
 
 .search-box > i{
     font-size: 25px;
-} */
+}
+
+.search-box > a{
+    text-decoration: none;
+    color: var(--text-color-light);
+}
 
 .newsteller-container{
     height: 455px;
