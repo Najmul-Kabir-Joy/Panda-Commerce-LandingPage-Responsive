@@ -1,4 +1,7 @@
+/* importing google poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* declaring css variables */
 :root{
     --text-color-dark: #1F1F1F;
     --text-color-light: #707070;
@@ -18,6 +21,7 @@
 
 }
 
+/* global styles */
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -35,6 +39,7 @@ h5 > a{
 p{
     color: var(--text-color-light);
 }
+
 
 .banner-header{
     font-size: var(--header-one-text-size);
@@ -71,6 +76,7 @@ p{
     letter-spacing: 2px;
 }
 
+/* search box in the navbar starts */
 .search-box{
     height: 50px;
     width: 500px;
@@ -95,6 +101,7 @@ p{
     text-decoration: none;
     color: var(--text-color-light);
 }
+/* search box in the navbar ends */
 
 .newsteller-container{
     height: 455px;
